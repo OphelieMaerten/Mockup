@@ -11,11 +11,25 @@
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
+    
 }
 
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 10px;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    font-weight: bold;
+    line-height: 10px; 
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
     font-weight: bold;
     line-height: 10px;
 }
@@ -44,13 +58,33 @@ table, th, td {
 
 th, td {
     padding: 8px;
-        border-width:1px;
-        border-style:solid; 
-        border-color:black;
-        width:50%;
+    border-width:1px;
+    border-style:solid; 
+    border-color:black;
+    width:50%;
     }
 
 .titre{
     background-color:antiquewhite;
 }
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.rendu{
+    display: block;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.code{
+    display: block;
+    border: 1px solid;
+    padding:20px;
+}
+
+
     
