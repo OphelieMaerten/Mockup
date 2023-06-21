@@ -30,8 +30,21 @@ a{
 .content{
     display: block;
     height: 100%;
-    width: 85%;
-    border: 1px solid red;
-    margin: 20px;
-    padding: 10px;
+    width: 80%;
+    margin: 30px;
+    padding: 20px;
+    text-align: justify;
 }
+
+table, th, td {
+
+    border: 2px solid skyblue;
+      border-collapse: collapse;
+    
+    }
+    caption, th, td {
+    
+    padding: 8px;
+    
+    }
+    
