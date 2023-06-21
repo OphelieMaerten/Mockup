@@ -8,6 +8,9 @@
     width: 15%;
     margin: 20px;
     padding: 10px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
 
 h1{
