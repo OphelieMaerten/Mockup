@@ -37,14 +37,20 @@ a{
 }
 
 table, th, td {
+    width: 50%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    }
 
-    border: 2px solid skyblue;
-      border-collapse: collapse;
-    
-    }
-    caption, th, td {
-    
+th, td {
     padding: 8px;
-    
+        border-width:1px;
+        border-style:solid; 
+        border-color:black;
+        width:50%;
     }
+
+.titre{
+    background-color:antiquewhite;
+}
     
