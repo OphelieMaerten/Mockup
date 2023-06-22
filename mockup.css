@@ -96,6 +96,7 @@ th, td {
     display: flex;
     flex-direction: row; 
     width: 100%;
+    
 }
 
 
@@ -115,7 +116,10 @@ th, td {
     width: 50%;
     margin-right: 20px;
     
-    
+}
+
+.boite{
+    padding-left: 35%;
 }
 
 .blue{
