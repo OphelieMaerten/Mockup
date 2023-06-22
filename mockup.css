@@ -84,27 +84,25 @@ th, td {
 
 .contenu{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     width: 100%;
-
 }
 
 
 .rendu{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    padding: 20px;
     border: 1px solid;
     width: 50%;
-    padding: 20px;
+    margin-right: 20px;
 }
 
 .code{
-    display: block;
     border: 1px solid;
     padding:20px;
-    width: 50%;
     background-color: black;
     color: white;
+    width: 50%;
 }
 
 
