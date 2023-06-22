@@ -113,6 +113,13 @@ th, td {
     background-color: black;
     color: white;
     width: 50%;
+    margin-right: 20px;
+    
+    
+}
+
+.blue{
+    color: rgb(0, 191, 255);
 }
 
 
