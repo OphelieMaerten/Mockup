@@ -118,12 +118,17 @@ th, td {
     
 }
 
-.boite{
-    padding-left: 35%;
-}
 
 .blue{
     color: rgb(0, 191, 255);
+}
+
+.light{
+    color: lightblue;
+}
+
+.orange{
+    color: rgb(237, 121, 79);
 }
 
 
