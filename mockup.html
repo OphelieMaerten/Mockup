@@ -39,8 +39,8 @@
             <h1>Tout</h1>
             <a href="mockup.html#a">a</a>
             <a href="mockup.html#abbr">abbr</a>
-            <a href="mockup.html#address">Address</a>
-            <a href="index.html#table">Label</a>
+            <a href="mockup.html#address">address</a>
+            <a href="mockup.html#area">area</a>
             <a href="index.html#table">Label</a>
             <a href="index.html#table">Label</a>
             <a href="index.html#table">Label</a>
@@ -124,8 +124,8 @@
                 <tr><td>title</td><td></td><td></td></td><tr><td><td></td></tr><tr><td></td><td><td></td></tr><tr><td></td><td><td></td></tr>
             </table>
 
-<section><h3>Exemple</h3></section>
-<section class="contenu">
+    <section><h3>Exemple</h3></section>
+    <section class="contenu">
     <div class="rendu">
         <p>Présentation d'un exemple</p>
         <p>Contact the author of this page:</p>
@@ -143,9 +143,58 @@
         <br><span class="blue">&lt;a&gt;</span><span class="light">href</span>=<span class="orange">"tel:+13115552368"</span>(311) 555-2368<span class="blue">&lt;/a&gt;</span>
         <br><span class="blue">&lt;/address&gt;</span>
     </div>
-    
-</section>
-</section>
+
+    </section>
+    </section>
+
+    <section class="content">
+        <h2 id="area">&lt;area&gt;</h2>
+        <p>Définie une zone ou plusieurs zones pour une carte image. Cette balise s'utilise toujours avec la balise &lt;map&gt;.</p>
+        <h3>Attributs</h3>
+            <table>
+                <tr class="titre"><th class="Nom">Nom</th><th class="description">Description</th><th class="valeurs">Valeurs (Exemple)</th></tr>
+                <tr><td>class</td><td></td><td></td></td><tr><td><td></td></tr><tr><td></td><td><td></td></tr><tr><td></td><td><td></td></tr>
+            </table>
+
+    <section><h3>Exemple</h3></section>
+    <section class="contenu">
+    <div class="rendu">
+        <p>Présentation d'un exemple</p>
+        <map name="infographic">
+            <area shape="poly" coords="129,0,260,95,129,138"
+                  href="https://developer.mozilla.org/docs/Web/HTTP"
+                  target="_blank" alt="HTTP">
+            <area shape="poly" coords="260,96,209,249,130,138"
+                  href="https://developer.mozilla.org/docs/Web/HTML"
+                  target="_blank" alt="HTML">
+            <area shape="poly" coords="209,249,49,249,130,139"
+                  href="https://developer.mozilla.org/docs/Web/JavaScript"
+                  target="_blank" alt="JavaScript">
+            <area shape="poly" coords="48,249,0,96,129,138"
+                  href="https://developer.mozilla.org/docs/Web/API"
+                  target="_blank" alt="Web APIs">
+            <area shape="poly" coords="0,95,128,0,128,137"
+                  href="https://developer.mozilla.org/docs/Web/CSS"
+                  target="_blank" alt="CSS">
+        </map>
+        <img usemap="#infographic" src="/media/examples/mdn-info.png" alt="MDN infographic">
+        
+
+    </div>
+
+    <div class="code">
+        <span class="blue">&lt;p&gt;</span>Présentation d'un exemple<span class="blue">&lt;/p&gt;</span>
+        <br><span class="blue">&lt;p&gt;</span>Contact the author of this page<span class="blue">&lt;/p&gt;
+        <br><span class="blue">&lt;address&gt;</span>
+        <br><span class="blue">&lt;a&gt;</span><span class="light">href</span>=<span class="orange">"mailto:jim@rock.com"</span>jim@rock.com<span class="blue">&lt;/a&gt;</span>
+        <br><span class="blue">&lt;a&gt;</span><span class="light">href</span>=<span class="orange">"tel:+13115552368"</span>(311) 555-2368<span class="blue">&lt;/a&gt;</span>
+        <br><span class="blue">&lt;/address&gt;</span>
+    </div>
+
+    </section>
+    </section>
+
+
 </section>
 </div></section>
 </body>
