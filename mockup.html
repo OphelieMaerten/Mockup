@@ -41,11 +41,11 @@
             <a href="mockup.html#abbr">abbr</a>
             <a href="mockup.html#address">address</a>
             <a href="mockup.html#area">area</a>
-            <a href="index.html#table">Label</a>
-            <a href="index.html#table">Label</a>
-            <a href="index.html#table">Label</a>
-            <a href="index.html#table">Label</a>
-            <a href="index.html#table">Label</a>
+            <a href="mockup.html#aritcle">article</a>
+            <a href="mockup.html#aside">aside</a>
+            <a href="mockup.html#audio">audio</a>
+            <a href="mockup.html#b">b</a>
+            <a href="mockup.html#base">base</a>
             <a href="index.html#table">Label</a>
             <a href="index.html#table">Label</a>
             <a href="index.html#table">Label</a>
@@ -62,6 +62,7 @@
         </div>
     </section>
     <div class="balises">
+
     <section class="content">  
 
             <h2 id="testa">&lt;a&gt;</h2>
@@ -231,7 +232,154 @@
     </section>
 
     
+    <section class="content">
+        <h2 id="aside">&lt;aside&gt;</h2>
+        <p>Balise de structure supposant avoir un titre de type &lt;h1&gt;. Cette balise permet de regrouper des informations non essentielles relatives au site Web. Lorsque la balise &lt;aside&gt; se trouve dans un article, son contenu se réfère à l'article lui même et non au site Web (par exemple des notes de pages, un glossaire ou tout élément relatifs à l'article).</p>
+        <h3>Attributs</h3>
+            <table>
+                <tr class="titre"><th class="Nom">Nom</th><th class="description">Description</th><th class="valeurs">Valeurs (Exemple)</th></tr>
+                <tr><td>style</td><td></td><td></td></td><tr><td><td></td></tr><tr><td></td><td><td></td></tr><tr><td></td><td><td></td></tr>
+            </table>
 
+        <section><h3>Exemple</h3></section>
+    <section class="contenu">
+        <div class="rendu">
+            <p>Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both larval and adult forms.</p>
+        <aside>
+            <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+        </aside>
+        </div>
+
+        <div class="code">
+        <span class="blue">&lt;p&gt;</span>Présentation d'un exemple<span class="blue">&lt;/p&gt;</span>
+        <br><span class="blue">&lt;p&gt;</span>Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in both larval and adult forms.<span class="blue">&lt;p&gt;</span>
+        <br><span class="blue">aside</span>
+        <br><span class="blue">&lt;p&gt;</span>The Rough-skinned Newt defends itself with a deadly neurotoxin.<span class="blue">&lt;p&gt;</span>
+        <br><span class="blue">/aside</span>
+
+        
+        </div>
+</section>
+</section>
+
+<section class="content">
+    <h2 id="audio">&lt;audio&gt;</h2>
+    <p>Pour lire un fichier audio.</p>
+    <h3>Attributs</h3>
+        <table>
+            <tr class="titre"><th class="Nom">Nom</th><th class="description">Description</th><th class="valeurs">Valeurs (Exemple)</th></tr>
+            <tr><td>style</td><td></td><td></td></td><tr><td><td></td></tr><tr><td></td><td><td></td></tr><tr><td></td><td><td></td></tr>
+        </table>
+
+    <section><h3>Exemple</h3></section>
+<section class="contenu">
+    <div class="rendu">
+        <figure>
+            <figcaption>Listen to the T-Rex:</figcaption>
+            <audio
+                controls
+                src="/media/cc0-audio/t-rex-roar.mp3">
+                    <a href="/media/cc0-audio/t-rex-roar.mp3">
+                        Download audio
+                    </a>
+    </div>
+
+    <div class="code">
+    <span class="blue">&lt;p&gt;</span>Présentation d'un exemple<span class="blue">&lt;/p&gt;</span>
+    <br><span class="blue">&lt;figure&gt;</span>
+    <br><span class="blue">&lt;figcaption&gt;</span>Listen to the T-Rex:<span class="blue">&lt;/figcaption&gt;</span>
+    <br><span class="blue">&lt;audio</span>
+    <br><span class="light">controls</span>
+    <br><span class="light">src</span>=<span class="orange">"/media/cc0-audio/t-rex-roar.mp3"</span>&gt;
+    <br><span class="blue">&lt;a</span><span class="light">href</span>=<span class="orange">"/media/cc0-audio/t-rex-roar.mp3"</span>&gt;
+    <br>Dowload audio
+    <br><span class="blue">&lt;/a&gt;</span>
+    </div>
+</section>
+</section>
+
+<section class="content">
+    <h2 id="b">&lt;b&gt;</h2>
+    <p>Utilisé dans un paragraphe pour une partie de texte en gras, sémantiquement faible, on lui préférera la balise &lt;strong&gt; pour donner de l'importance au texte.</p>
+    <h3>Attributs</h3>
+        <table>
+            <tr class="titre"><th class="Nom">Nom</th><th class="description">Description</th><th class="valeurs">Valeurs (Exemple)</th></tr>
+            <tr><td>style</td><td></td><td></td></td><tr><td><td></td></tr><tr><td></td><td><td></td></tr><tr><td></td><td><td></td></tr>
+        </table>
+
+    <section><h3>Exemple</h3></section>
+<section class="contenu">
+    <div class="rendu">
+        <p>The two most popular science courses offered by the school are 
+        <b class="term">chemistry</b> (the study of chemicals and the composition of substances) and 
+        <b class="term">physics</b> (the study of the nature and properties of matter and energy).</p>
+    </div>
+
+    <div class="code">
+    <span class="blue">&lt;p&gt;</span>Présentation d'un exemple<span class="blue">&lt;/p&gt;</span>
+    <br><span class="blue">&lt;p&gt;</span>The two most popular science courses offered by the school are <span class="blue">&lt;b</span><span class="light">class</span>
+    <span class="orange">"term"</span>&gt;physics<span class="blue">/b&gt;</span>(the study of the nature and properties of matter and energy).<span class="blue">&lt;/p&gt;</span>
+    </div>
+</section>
+</section>
+
+<section class="content">
+    <h2 id="base">&lt;base&gt;</h2>
+    <p>Cette balise permet de définir l'URL de base (l'utilisation de cette balise est parfois controversée).</p>
+    <h3>Attributs</h3>
+        <table>
+            <tr class="titre"><th class="Nom">Nom</th><th class="description">Description</th><th class="valeurs">Valeurs (Exemple)</th></tr>
+            <tr><td>style</td><td></td><td></td></td><tr><td><td></td></tr><tr><td></td><td><td></td></tr><tr><td></td><td><td></td></tr>
+        </table>
+
+    <section><h3>Exemple</h3></section>
+    <section class="contenu">
+    <div class="rendu">
+        <meta property="og:image" content="https://example.com/thumbnail.jpg" />
+        <base href="https://www.example.com/" />
+        <base target="_blank" />
+        <base target="_top" href="https://example.com/" />
+    </div>
+
+    <div class="code">
+    <span class="blue">&lt;p&gt;</span>Présentation d'un exemple<span class="blue">&lt;/p&gt;</span>
+    <br><span class="blue">&lt;base</span><span class="light">href</span>=<span class="orange">"https://www.example.com/"</span>/&gt;
+    <br><span class="blue">&lt;base</span><span class="light">target</span>=<span class="orange">"_blank"</span>/&gt;
+    <br><span class="blue">&lt;base</span><span class="light">target</span>=<span class="orange">"_top"<span class="light">href</span>=<span class="orange">"https://example.com/"</span>/&gt;
+    </div>
+</section>
+</section>
+
+
+<section class="content">
+    <h2 id="bdo">&lt;bdo&gt;</h2>
+    <p>Utilisé pour la direction d'un texte. Attention, l'attribut "dir" à une valeur sémantique différente pour cette balise.</p>
+    <h3>Attributs</h3>
+        <table>
+            <tr class="titre"><th class="Nom">Nom</th><th class="description">Description</th><th class="valeurs">Valeurs (Exemple)</th></tr>
+            <tr><td>style</td><td></td><td></td></td><tr><td><td></td></tr><tr><td></td><td><td></td></tr><tr><td></td><td><td></td></tr>
+        </table>
+
+    <section><h3>Exemple</h3></section>
+    <section class="contenu">
+    <div class="rendu">
+        <h1>Famous seaside songs</h1>
+
+        <p>The English song "Oh I do like to be beside the seaside"</p>
+
+        <p>Looks like this in Hebrew: <span dir="rtl">אה, אני אוהב להיות ליד חוף הים</span></p>
+
+        <p>In the computer's memory, this is stored as <bdo dir="ltr">אה, אני אוהב להיות ליד חוף הים</bdo></p>
+    </div>
+
+    <div class="code">
+    <span class="blue">&lt;p&gt;</span>Présentation d'un exemple<span class="blue">&lt;/p&gt;</span>
+    <br><span class="blue">&lt;base</span><span class="light">href</span>=<span class="orange">"https://www.example.com/"</span>/&gt;
+    <br><span class="blue">&lt;base</span><span class="light">target</span>=<span class="orange">"_blank"</span>/&gt;
+    <br><span class="blue">&lt;base</span><span class="light">target</span>=<span class="orange">"_top"<span class="light">href</span>=<span class="orange">"https://example.com/"</span>/&gt;
+    </div>
+</section>
+</section>
 
 </section>
 </div></section>
